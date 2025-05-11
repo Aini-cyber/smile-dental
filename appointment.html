@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book an Appointment —Happy Smile Dental Clinic </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Happy Smile Dental Clinic</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="appointment.html">Book Appointment</a></li>
+        </ul>
+    </nav>
+
+    <!-- Appointment Form -->
+    <section class="appointment-page">
+        <h1>Book an Appointment</h1>
+        <p>Fill out the form below and we will contact you to confirm your appointment.</p>
+
+        <form action="#" method="post" class="appointment-form">
+            <input type="text" name="name" placeholder="Your Full Name" required>
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+
+            <label for="service">Select Service</label>
+            <select name="service" id="service" required>
+                <option value="">-- Please choose a service --</option>
+                <option value="Teeth Cleaning">Teeth Cleaning</option>
+                <option value="Whitening">Teeth Whitening</option>
+                <option value="Braces & Aligners">Braces & Aligners</option>
+                <option value="Dental Implants">Dental Implants</option>
+                <option value="Root Canal">Root Canal Therapy</option>
+                <option value="Emergency Care">Emergency Dental Care</option>
+            </select>
+
+            <label for="date">Preferred Date</label>
+            <input type="date" name="date" id="date" required>
+
+            <label for="time">Preferred Time</label>
+            <input type="time" name="time" id="time" required>
+
+            <textarea name="message" placeholder="Additional Notes (Optional)" rows="5"></textarea>
+
+            <button type="submit" class="btn">Book Appointment</button>
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Happy Smile Dental Clinic . All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
